@@ -10,6 +10,8 @@
 		1603ABA928994AE100827F8C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1603ABA828994AE100827F8C /* main.swift */; };
 		1603ABB228994C8100827F8C /* 217ContainsDuplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1603ABB128994C8100827F8C /* 217ContainsDuplicate.swift */; };
 		1603ABB428994CD300827F8C /* Executable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1603ABB328994CD300827F8C /* Executable.swift */; };
+		1603ABB62899558400827F8C /* 242ValidAnagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1603ABB52899558400827F8C /* 242ValidAnagram.swift */; };
+		1603ABB82899595A00827F8C /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1603ABB72899595A00827F8C /* Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +31,8 @@
 		1603ABA828994AE100827F8C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		1603ABB128994C8100827F8C /* 217ContainsDuplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 217ContainsDuplicate.swift; sourceTree = "<group>"; };
 		1603ABB328994CD300827F8C /* Executable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Executable.swift; sourceTree = "<group>"; };
+		1603ABB52899558400827F8C /* 242ValidAnagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 242ValidAnagram.swift; sourceTree = "<group>"; };
+		1603ABB72899595A00827F8C /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +65,11 @@
 		1603ABA728994AE100827F8C /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
-				1603ABA828994AE100827F8C /* main.swift */,
-				1603ABB328994CD300827F8C /* Executable.swift */,
 				1603ABB128994C8100827F8C /* 217ContainsDuplicate.swift */,
+				1603ABB52899558400827F8C /* 242ValidAnagram.swift */,
+				1603ABB328994CD300827F8C /* Executable.swift */,
+				1603ABB72899595A00827F8C /* Helper.swift */,
+				1603ABA828994AE100827F8C /* main.swift */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -128,7 +134,9 @@
 			files = (
 				1603ABA928994AE100827F8C /* main.swift in Sources */,
 				1603ABB228994C8100827F8C /* 217ContainsDuplicate.swift in Sources */,
+				1603ABB82899595A00827F8C /* Helper.swift in Sources */,
 				1603ABB428994CD300827F8C /* Executable.swift in Sources */,
+				1603ABB62899558400827F8C /* 242ValidAnagram.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
