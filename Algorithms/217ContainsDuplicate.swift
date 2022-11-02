@@ -7,7 +7,15 @@
 
 import Foundation
 
-class Solution217_0: Executable {
+final class Solution217_0: Executable {
+    func start() {
+        var data = [1,1,1,3,3,4,3,2,4,2]
+        print("Initial Data = \(data) \nContains duplicates = \(containsDuplicate(data))")
+
+        data = [1,2,3,4,5,6,7,8,9]
+        print("Initial Data = \(data) \nContains duplicates = \(containsDuplicate(data))")
+    }
+
     //Space - O(N)
     //Speed - O(N*logN)
     func containsDuplicate(_ nums: [Int]) -> Bool {
@@ -24,7 +32,9 @@ class Solution217_0: Executable {
 
         return false
     }
+}
 
+final class Solution217_1 {
     func start() {
         var data = [1,1,1,3,3,4,3,2,4,2]
         print("Initial Data = \(data) \nContains duplicates = \(containsDuplicate(data))")
@@ -32,15 +42,15 @@ class Solution217_0: Executable {
         data = [1,2,3,4,5,6,7,8,9]
         print("Initial Data = \(data) \nContains duplicates = \(containsDuplicate(data))")
     }
-}
 
-class Solution217_1 {
     //Space - O(N)
     //Speed - O(N)
-    func containsDuplicate(_ nums: [Int]) -> Bool {
+    private func containsDuplicate(_ nums: [Int]) -> Bool {
         Set(nums).count != nums.count
     }
+}
 
+final class Solution217_2: Executable {
     func start() {
         var data = [1,1,1,3,3,4,3,2,4,2]
         print("Initial Data = \(data) \nContains duplicates = \(containsDuplicate(data))")
@@ -48,12 +58,10 @@ class Solution217_1 {
         data = [1,2,3,4,5,6,7,8,9]
         print("Initial Data = \(data) \nContains duplicates = \(containsDuplicate(data))")
     }
-}
 
-class Solution217_2 {
     //Space - O(N)
     //Speed - O(N)
-    func containsDuplicate(_ nums: [Int]) -> Bool {
+    private func containsDuplicate(_ nums: [Int]) -> Bool {
         var dictionary: [Int: Void] = [:]
 
         for value in nums {
@@ -63,13 +71,5 @@ class Solution217_2 {
             dictionary[value] = Void()
         }
         return false
-    }
-
-    func start() {
-        var data = [1,1,1,3,3,4,3,2,4,2]
-        print("Initial Data = \(data) \nContains duplicates = \(containsDuplicate(data))")
-
-        data = [1,2,3,4,5,6,7,8,9]
-        print("Initial Data = \(data) \nContains duplicates = \(containsDuplicate(data))")
     }
 }

@@ -15,4 +15,6 @@ let solution217_2 = Solution217_2()
 let solution242_0 = Solution242_0()
 let solution242_1 = Solution242_1()
 
-solution242_1.start()
+let firstRecurringCharacter = FirstRecurringCharacter_0()
+
+firstRecurringCharacter.start()

@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Solution242_0 {
+class Solution242_0: Executable {
     //Space - O(N+M)
     //Speed - O(N+M)
     func isAnagram(_ s: String, _ t: String) -> Bool {
@@ -41,14 +41,7 @@ class Solution242_0 {
     }
 }
 
-class Solution242_1 {
-    //Space - O(1)
-    //Speed - O(N*logN+M*logM)
-    func isAnagram(_ s: String, _ t: String) -> Bool {
-        guard s.count == t.count else { return false }
-        return s.sorted() == t.sorted()
-    }
-
+final class Solution242_1: Executable {
     func start() {
         var s = "anagram"
         var t = "nagaram"
@@ -59,5 +52,12 @@ class Solution242_1 {
         s = "rat"
         t = "car"
         print("Given: \ns = \(s)\nt = \(t)\nIs anagram \(isAnagram(s, t))")
+    }
+
+    //Space - O(1)
+    //Speed - O(N*logN+M*logM)
+    private func isAnagram(_ s: String, _ t: String) -> Bool {
+        guard s.count == t.count else { return false }
+        return s.sorted() == t.sorted()
     }
 }
