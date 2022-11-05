@@ -18,16 +18,15 @@ let solution242_1 = Solution242_1()
 let firstRecurringCharacter = FirstRecurringCharacter_0()
 
 
-let linkdeList = LinkedList(1)
-linkdeList.append(2)
-linkdeList.append(3)
-linkdeList.append(4)
-linkdeList.append(5)
+let stack = Stack<Int>()
+stack.push(1)
 
 
-linkdeList.reverse()
+stack.pop()
+print(stack.peek())
 
-print(linkdeList)
+print(stack)
+
 
 
 // 1 0 0 3 0 0 0 0 0
