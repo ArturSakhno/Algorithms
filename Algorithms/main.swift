@@ -17,4 +17,17 @@ let solution242_1 = Solution242_1()
 
 let firstRecurringCharacter = FirstRecurringCharacter_0()
 
-firstRecurringCharacter.start()
+
+let linkdeList = LinkedList(1)
+linkdeList.append(2)
+linkdeList.append(3)
+linkdeList.append(4)
+linkdeList.append(5)
+
+
+linkdeList.reverse()
+
+print(linkdeList)
+
+
+// 1 0 0 3 0 0 0 0 0
