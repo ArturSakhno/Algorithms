@@ -18,14 +18,20 @@ let solution242_1 = Solution242_1()
 let firstRecurringCharacter = FirstRecurringCharacter_0()
 
 
-let stack = Stack<Int>()
-stack.push(1)
+let queue = Queue<Int>()
+queue.enqueue(1)
+queue.enqueue(2)
+queue.enqueue(3)
+queue.enqueue(4)
+
+queue.enqueue(10)
+
+queue.dequeue()
 
 
-stack.pop()
-print(stack.peek())
+print(queue.peek())
 
-print(stack)
+//print(stack)
 
 
 
