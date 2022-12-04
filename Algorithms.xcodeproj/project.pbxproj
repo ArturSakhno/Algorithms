@@ -16,6 +16,7 @@
 		1630ECF22912C9D100B1B844 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1630ECF12912C9D100B1B844 /* Node.swift */; };
 		1630ECF42916C9E900B1B844 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1630ECF32916C9E900B1B844 /* Stack.swift */; };
 		1630ECF62916D79200B1B844 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1630ECF52916D79200B1B844 /* Queue.swift */; };
+		1630ECF82917127700B1B844 /* BinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1630ECF72917127700B1B844 /* BinarySearchTree.swift */; };
 		16FE1441290FF85B00F555BD /* HashMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FE1440290FF85B00F555BD /* HashMap.swift */; };
 		16FE14432910686F00F555BD /* FirstRecurringCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FE14422910686F00F555BD /* FirstRecurringCharacter.swift */; };
 /* End PBXBuildFile section */
@@ -43,6 +44,7 @@
 		1630ECF12912C9D100B1B844 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 		1630ECF32916C9E900B1B844 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		1630ECF52916D79200B1B844 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		1630ECF72917127700B1B844 /* BinarySearchTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTree.swift; sourceTree = "<group>"; };
 		16FE1440290FF85B00F555BD /* HashMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashMap.swift; sourceTree = "<group>"; };
 		16FE14422910686F00F555BD /* FirstRecurringCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstRecurringCharacter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -96,6 +98,7 @@
 				16FE1440290FF85B00F555BD /* HashMap.swift */,
 				1630ECF52916D79200B1B844 /* Queue.swift */,
 				1630ECF32916C9E900B1B844 /* Stack.swift */,
+				1630ECF72917127700B1B844 /* BinarySearchTree.swift */,
 			);
 			path = DataStructures;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 				1603ABB82899595A00827F8C /* Helper.swift in Sources */,
 				16FE14432910686F00F555BD /* FirstRecurringCharacter.swift in Sources */,
 				1630ECF42916C9E900B1B844 /* Stack.swift in Sources */,
+				1630ECF82917127700B1B844 /* BinarySearchTree.swift in Sources */,
 				1603ABB428994CD300827F8C /* Executable.swift in Sources */,
 				1630ECEF2912C7E500B1B844 /* LinkedList.swift in Sources */,
 				1603ABB62899558400827F8C /* 242ValidAnagram.swift in Sources */,

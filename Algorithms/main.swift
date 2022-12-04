@@ -18,21 +18,31 @@ let solution242_1 = Solution242_1()
 let firstRecurringCharacter = FirstRecurringCharacter_0()
 
 
-let queue = Queue<Int>()
-queue.enqueue(1)
-queue.enqueue(2)
-queue.enqueue(3)
-queue.enqueue(4)
+let tree = BinarySearchTree(rootValue: 9)
 
-queue.enqueue(10)
+tree.insert(4)
+tree.insert(6)
+tree.insert(20)
+tree.insert(170)
+tree.insert(15)
+tree.insert(1)
 
-queue.dequeue()
+tree.insert(1)
 
+print(0)
+print(tree.lookup(170))
 
-print(queue.peek())
+print(0)
+
 
 //print(stack)
 
+
+//      9
+//   4    15   20
+//1      6       170
+//
+//
 
 
 // 1 0 0 3 0 0 0 0 0
