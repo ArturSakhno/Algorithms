@@ -7,6 +7,6 @@
 
 import Foundation
 
-print(factorialIterative(num: 2))
 
-print(factorialRecursive(num: 4))
+
+print([1,3,43,34,5].sorted(by: <))
